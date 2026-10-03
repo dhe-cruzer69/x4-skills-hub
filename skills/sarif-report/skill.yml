@@ -1,0 +1,7 @@
+name: sarif-report
+version: 0.1.0
+description: Emit security findings in SARIF format
+autonomy_level: 0
+tools:
+  - name: emit_sarif
+    description: Write SARIF report from findings list

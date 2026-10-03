@@ -1,0 +1,13 @@
+name: web-search
+version: 0.1.0
+description: Constrained web search for agents
+autonomy_level: 1
+tools:
+  - name: search
+    description: Search the web with query limits
+    parameters:
+      query: { type: string, required: true }
+      max_results: { type: integer, default: 5 }
+security:
+  allow_list: ["search"]
+  deny_list: ["*"]

@@ -1,0 +1,7 @@
+name: code-review
+version: 0.1.0
+description: Diff and evidence-based code review
+autonomy_level: 0
+tools:
+  - name: review_diff
+    description: Review a unified diff and produce evidence notes

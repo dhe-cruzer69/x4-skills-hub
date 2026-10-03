@@ -1,0 +1,7 @@
+name: repo-inventory
+version: 0.1.0
+description: Collect repository metadata for fleet inventory
+autonomy_level: 0
+tools:
+  - name: list_repos
+    description: List repos for an owner

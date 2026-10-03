@@ -1,0 +1,7 @@
+name: session-memory
+version: 0.1.0
+description: Context compression and session memory helper
+autonomy_level: 1
+tools:
+  - name: compress
+    description: Compress tool output for context window
